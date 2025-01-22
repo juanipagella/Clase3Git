@@ -1,10 +1,54 @@
+<!-- 
+    Hola Juani! Buenas tardes! 
+
+    Bien, hago una recorrida rápida de este documento aprovechando que todavía no hiciste la última tarea
+    para tocar algunos detalles de esta entrega. 
+
+    Como primer detalle quiero recordarte lo importante que es la indentación que recapitulando es el
+    tabulado que colocamos a los elementos para marcar su jerarquia. 
+    Por ejemplo:
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Solapa</title>
+        </head>
+        <body>
+            <section>
+                <h2>Titulo de seccion</h2>
+            </section>
+        </body>
+    </html>
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>Bienvenidos a mi primer proyecto</head>
+    <!-- 
+        Super importante:
+        Recordá que la etiqueta head solo es para metadata. Si lo que buscabas era colocar
+        contenido a la solapa de la página es necesario utilizar la etiqueta "title" como lo 
+        coloque aqui abajo.
+    -->
+    <head>
+        Bienvenidos a mi primer proyecto
+        <!-- <title>Bienvenidos a mi primer proyecto</title>-->
+    </head>
+    <!-- 
+        Otro dato super importante:
+        Recordá que todo el contenido que el usuario puede ver o con el que puede interactuar
+        debe estar rodeado por el "body" del documento. 
+        Aquí te envuelvo todo con ello.
+    -->
+<!-- <body> -->
     <header>
         <h1 style="color: red;"> Club Atlético Huracán </h1>
     </header>
+    <!-- Es importante no dejar etiquetas sueltitas (como esta img) sin un contenedor representativo.-->
     <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Emblema_oficial_del_Club_Atl%C3%A9tico_Hurac%C3%A1n.svg" alt="Esta es una descripcion alternativa de la imagen para cuando no se pueda mostrar" width="480" height="380"/>
+    <!-- 
+        Siempre que podamos utilizar una etiqueta semantica como section, article, nav, etc. va a ser
+        mejor que utilizar un div. Estos solo debemos usarlos cuando lo que queremos representar no tiene
+        su propia etiqueta semantica dado que de lo contrario terminaremos con un ilegible mar de divs.
+    -->
 <div class="content">
     <div class="section">
     <h2> Historia </h2>
@@ -36,4 +80,15 @@
     <li>Capacitaciones</li>
     <li>Apoyo Escolar</li>
 </ul>
+<!-- </body> -->
 </html>
+
+<!--
+    Notas finales: 
+    
+    Lo demas se ve bastante bien. Creo que corrigiendo estos detalles ya el documento va a tener mucha
+    mejor pinta. 
+    Lo demas lo vamos a ir viendo conforme avancemos.
+
+    Espero hayas tenido un excelente viaje! Nos vemos la semana que viene.
+-->
